@@ -1,23 +1,23 @@
 import { Card, CardContent } from "@/components/ui/card";
 
 const experiences = [{
-  title: "Authentic Cultural Encounters",
-  description: "Engage with local life through guided tours, tastings, and hands-on activities led by passionate experts.",
+  title: "Active River Cruising",
+  description: "Enjoy guided hikes, bike tours, and wellness programs tailored for adventurous, health-conscious travelers.",
   color: "bg-blue-50 text-blue-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684533/cld-sample-4.jpg"
 }, {
-  title: "Stunning River Landscapes",
-  description: "Cruise through charming towns, historic cities, and breathtaking countryside—each day framed by natural beauty.",
+  title: "Award-Winning Cuisine",
+  description: "Savor locally inspired gourmet meals and regional wines at every meal, including The Chef’s Table specialty dining.",
   color: "bg-rose-50 text-rose-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684532/samples/cup-on-a-table.jpg"
 }, {
-  title: "Refined Onboard Living & Dining",
-  description: "Unwind in twin-balcony staterooms, enjoy exquisite regional cuisine, and receive attentive, personalized service.",
+  title: "Innovative Ship Design",
+  description: "Travel on state-of-the-art ships, including the double-width AmaMagna for spacious suites and enhanced onboard experiences.",
   color: "bg-amber-50 text-amber-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684530/samples/balloons.jpg"
 }, {
-  title: "Thoughtfully Designed Itineraries",
-  description: "Each cruise is curated to include iconic sites, hidden gems, and memorable cultural moments.",
+  title: "Immersive Cultural Connections",
+  description: "Dive into local culture through exclusive shore excursions, tastings, and village visits with expert guides.",
   color: "bg-emerald-50 text-emerald-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684526/samples/landscapes/beach-boat.jpg"
 }];
@@ -68,7 +68,7 @@ const ExperienceAndWhy = () => {
           <div className="w-24 h-1 bg-viking-gold mx-auto"></div>
         </div>
 
-        {/* Viking River Cruises Section */}
+        {/* AmaWaterways Section */}
         <div className="mb-24">
           <div className="mb-12 flex justify-center border-2 border-viking-gold py-4">
             <img
